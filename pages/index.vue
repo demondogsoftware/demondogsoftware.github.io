@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="all-cols">
+    <h1>
       Demon Dog Software
     </h1>
   </div>
