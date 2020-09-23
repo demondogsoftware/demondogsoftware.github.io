@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <Nuxt />
-  </div>
+  <Nuxt />
 </template>
 
 <style>
@@ -15,20 +13,36 @@ html {
     'Helvetica Neue',
     Arial,
     sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
+  font-size: 16px;
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr 1fr 1fr 1fr 1fr 5%;
+}
+
+.all-cols {
+  grid-column: 2 / span 6;
+}
+
+.left-cols {
+  grid-column: 2 / span 3;
+}
+
+.right-cols {
+  grid-column: 5 / span 3;
 }
 
 .button--green {
