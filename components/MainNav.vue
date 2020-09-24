@@ -1,5 +1,5 @@
 <template>
-  <header class="container">
+  <header class="container row nav--header">
     <button class="nav--toggle" aria-label="open navigation menu" @click="toggleNav" @keyup.enter.native="toggleNav">
       <span class="hamburger" />
     </button>
@@ -59,6 +59,11 @@ export default {
 </script>
 
 <style>
+
+.nav--header {
+  padding: 1em 0;
+}
+
 .main--nav {
   width: 100%;
   visibility: hidden;
@@ -94,6 +99,7 @@ export default {
   color: #000;
   border-radius: 50%;
   position: absolute;
+  bottom: 0;
   right: 0;
   transition: opacity 250ms ease;
 }
@@ -133,5 +139,25 @@ export default {
 
 .nav--logo {
   height: 2rem;
+}
+
+@media (min-width: 800px) {
+  .nav--toggle {
+    display: none;
+  }
+  .main--nav {
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: auto;
+    position: relative;
+  }
+  .nav--list {
+    display: flex;
+  }
+  .nav--item + .nav--item {
+    margin-left: .75rem;
+  }
 }
 </style>
