@@ -8,6 +8,7 @@
         </h1>
         <p>
           Coding Dreams Into Reality
+          <br>
           Web development tailored to YOUR business needs
         </p>
         <a href="#contact-form" class="contact--btn"><span class="contact--icon" />Contact</a>
@@ -22,7 +23,10 @@
         <p>
           Every business is different, so your website shouldn’t feel like every other business. We will create a custom website using the latest web development tools that will address all your business needs while providing a one-of-a-kind customer experiance for your customers.
         </p>
-        <nuxt-link to="/portfolio" class="portfolio--btn"><span class="portfolio--icon" />Portfolio</nuxt-link>
+        <nuxt-link to="/portfolio" class="portfolio--btn">
+          <span class="portfolio--icon" />
+          Portfolio
+        </nuxt-link>
       </div>
       <div class="home--services-text">
         <h2>
@@ -35,17 +39,20 @@
       <div class="home--services-cards">
         <div class="service--card">
           <img src="" alt="service image placeholder">
-          <p></p>
+          <p>DNS / Hosting</p>
         </div>
         <div class="service--card">
           <img src="" alt="service image placeholder">
-          <p></p>
+          <p>Database Services</p>
         </div>
         <div class="service--card">
           <img src="" alt="service image placeholder">
-          <p></p>
+          <p>SEO / Social</p>
         </div>
-        <nuxt-link to="/services" class="services--btn"><span class="services--icon" />Services</nuxt-link>
+        <nuxt-link to="/services" class="services--btn">
+          <span class="services--icon" />
+          Services
+        </nuxt-link>
       </div>
       <img src="" alt="services picture 2 placeholder">
     </article>
@@ -56,6 +63,7 @@
         </h2>
         <p>
           Want a price quote or have questions regarding services?
+          <br>
           Do you have an idea or project you want to bring to lfe?
         </p>
       </div>
