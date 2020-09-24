@@ -49,7 +49,7 @@
       </div>
       <img src="" alt="services picture 2 placeholder">
     </article>
-    <article class="home--contact-container">
+    <article id="contact-form" class="home--contact-container">
       <div class="home--contact-text">
         <h2>
           CONTACT US
@@ -60,6 +60,7 @@
         </p>
       </div>
       <img src="" alt="home contact image placeholder">
+      <ContactForm />
     </article>
   </section>
 </template>
