@@ -40,6 +40,7 @@ img {
 .container {
   width: 80%;
   margin: 0 auto;
+  padding: 3rem 0;
   position: relative;
 }
 

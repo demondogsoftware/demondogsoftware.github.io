@@ -1,5 +1,5 @@
 <template>
-  <section id="home-container" class="container">
+  <section class="container">
     <article class="home--hero-container">
       <img src="" alt="demon dog software image with company name" class="home--hero-img">
       <div class="home--hero-text">
@@ -80,10 +80,6 @@ export default {}
 </script>
 
 <style>
-
-#home-container {
-  padding: 3rem 0;
-}
 
 .home--hero-text,
 .home--services-text,
