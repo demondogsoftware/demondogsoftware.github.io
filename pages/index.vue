@@ -49,10 +49,12 @@
           <img src="" alt="service image placeholder">
           <p>SEO / Social</p>
         </div>
-        <nuxt-link to="/services" class="services--btn">
-          <span class="services--icon" />
-          Services
-        </nuxt-link>
+        <div class="services--btn-container">
+          <nuxt-link to="/services" class="services--btn">
+            <span class="services--icon" />
+            Services
+          </nuxt-link>
+        </div>
       </div>
       <img src="" alt="services picture 2 placeholder">
     </article>
@@ -83,11 +85,20 @@ export default {}
   padding: 3rem 0;
 }
 
-.home--hero-text {
+.home--hero-text,
+.home--services-text,
+.home--contact-text {
   margin: 2rem 0;
 }
 
-.home--hero-text p {
+.home--hero-text p,
+.home--services-text p,
+.service--card,
+.home--contact-text p {
   margin: 1.5rem 0;
+}
+
+.services--btn-container {
+  margin-bottom: 1.5rem;
 }
 </style>
