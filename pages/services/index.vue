@@ -8,14 +8,14 @@
         </h1>
         <p>
           We know all to well the time and energy it takes to run
-          your website, let alone the rest of your business
+          your website, let alone the rest of your business.
           <br>
           Let us take care of the hassle of buying the domain and
           hosting the site.  Never again waste time trying to figure
-          out why something isn’t working right or plain not working
+          out why something isn’t working right or plain not working.
           <br>
           We’ll handle monthly maintenance/backup of your site
-          and data, as well as update content.
+          and data, update content, and many more things.
         </p>
         <a href="#contact-form" class="contact--btn"><span class="contact--icon" />Contact</a>
       </div>
@@ -79,7 +79,20 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head () {
+    return {
+      title: 'Services | Demon Dog Software',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'our services take care of all your needs from design and development, to deployment and hosting,as well as seo/social media and database services '
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style>

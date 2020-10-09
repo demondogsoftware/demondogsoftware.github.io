@@ -76,7 +76,20 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head () {
+    return {
+      title: 'Demon Dog Software',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'demon dog software is your one stop tech shop for all your website or softwware needs'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style>
