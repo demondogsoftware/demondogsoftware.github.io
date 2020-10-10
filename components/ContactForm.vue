@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="contact--form-container">
     <h2 class="contact--form-title">
       ** Complete The Form **
     </h2>
