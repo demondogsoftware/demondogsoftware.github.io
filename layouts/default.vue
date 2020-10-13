@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <MainNav />
     <Nuxt />
   </div>
@@ -27,7 +27,7 @@ body {
 *,
 *::before,
 *::after {
-  font-size: 16px;
+  font-size: 1rem;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -40,8 +40,35 @@ img {
 .container {
   width: 80%;
   margin: 0 auto;
-  padding: 3rem 0;
   position: relative;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
 }
 
 .button--green {

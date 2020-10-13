@@ -1,8 +1,8 @@
 <template>
-  <section class="container">
+  <section class="py-3">
     <article class="portfolio--projects-container">
       <div class="portfolio--projects--cards">
-        <div class="projects--card">
+        <div class="projects--card my-1">
           <img src="" alt="project picture placeholder">
           <div class="projects--card-text">
             <p>
@@ -10,7 +10,7 @@
             </p>
           </div>
         </div>
-        <div class="projects--card">
+        <div class="projects--card my-1">
           <img src="" alt="project picture placeholder">
           <div class="projects--card-text">
             <p>
@@ -18,7 +18,7 @@
             </p>
           </div>
         </div>
-        <div class="projects--card">
+        <div class="projects--card my-1">
           <img src="" alt="project picture placeholder">
           <div class="projects--card-text">
             <p>
@@ -26,7 +26,7 @@
             </p>
           </div>
         </div>
-        <div class="projects--card">
+        <div class="projects--card my-1">
           <img src="" alt="project picture placeholder">
           <div class="projects--card-text">
             <p>
@@ -34,7 +34,7 @@
             </p>
           </div>
         </div>
-        <div class="projects--card">
+        <div class="projects--card my-1">
           <img src="" alt="project picture placeholder">
           <div class="projects--card-text">
             <p>
@@ -42,7 +42,7 @@
             </p>
           </div>
         </div>
-        <div class="projects--card">
+        <div class="projects--card my-1">
           <img src="" alt="project picture placeholder">
           <div class="projects--card-text">
             <p>
@@ -87,9 +87,4 @@ export default {
 </script>
 
 <style>
-
-.projects--card {
-  margin: 1.5rem 0;
-}
-
 </style>

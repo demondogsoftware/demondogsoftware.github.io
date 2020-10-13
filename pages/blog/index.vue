@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="p-3">
     <div class="blog--nav-container">
       <nav class="blog--nav">
         <ul class="nav--list">

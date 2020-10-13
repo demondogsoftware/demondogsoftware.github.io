@@ -1,5 +1,5 @@
 <template>
-  <header class="container row nav--header">
+  <header class="row nav--header">
     <button class="nav--toggle" aria-label="open navigation menu" @click="toggleNav" @keyup.enter.native="toggleNav">
       <span class="hamburger" />
     </button>
@@ -99,7 +99,7 @@ export default {
   color: #000;
   border-radius: 50%;
   position: absolute;
-  bottom: 0;
+  padding: 0;
   right: 0;
   transition: opacity 250ms ease;
 }
@@ -138,7 +138,10 @@ export default {
 }
 
 .nav--logo {
-  height: 2rem;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  text-decoration: none;
 }
 
 @media (min-width: 800px) {
