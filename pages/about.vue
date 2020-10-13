@@ -67,4 +67,24 @@ export default {
 </script>
 
 <style>
+
+.about--hero-text,
+.employee--card-text {
+  margin: 2rem 0;
+}
+
+.about--hero-text p,
+.employee--card {
+  margin: 1.5rem 0;
+}
+
+.employee--card-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social--link {
+  text-decoration: none;
+}
+
 </style>

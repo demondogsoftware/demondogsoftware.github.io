@@ -18,7 +18,7 @@
               Food
             </nuxt-link>
           </li>
-          <li class=="nav--item">
+          <li class="nav--item">
             <input class="nav--search" type="text" name="search" value="search">
           </li>
         </ul>
