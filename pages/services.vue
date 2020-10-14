@@ -17,7 +17,7 @@
           We’ll handle monthly maintenance/backup of your site
           and data, update content, and many more things.
         </p>
-        <a href="#contact-form" class="contact--btn"><span class="contact--icon" />Contact</a>
+        <ContactButton />
       </div>
     </article>
     <article class="services--services-container">
@@ -60,20 +60,6 @@
           </p>
         </div>
       </div>
-    </article>
-    <article id="contact-form" class="services--contact-container">
-      <div class="home--contact-text">
-        <h2>
-          CONTACT US
-        </h2>
-        <p>
-          Want a price quote or have questions regarding services?
-          <br>
-          Do you have an idea or project you want to bring to lfe?
-        </p>
-      </div>
-      <img src="" alt="home contact image placeholder">
-      <ContactForm />
     </article>
   </section>
 </template>

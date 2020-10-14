@@ -22,7 +22,7 @@
           <textarea id="msg" class="form--textarea" name="msg" rows="8" />
         </li>
         <li class="form--item">
-          <button type="submit" class="form--submit-btn">
+          <button type="submit" class="btn form--submit-btn">
             <span class="submit--icon" />
             Submit
           </button>

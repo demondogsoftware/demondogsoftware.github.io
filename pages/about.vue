@@ -12,12 +12,7 @@
         <p class="my-1">
           Our goal is to figure out your online needs and help you reach the best solution for  your business
         </p>
-        <div class="services--btn-container">
-          <nuxt-link to="/services" class="services--btn">
-            <span class="services--icon" />
-            Services
-          </nuxt-link>
-        </div>
+        <ServicesButton />
       </div>
     </article>
     <article class="about--employees-container">

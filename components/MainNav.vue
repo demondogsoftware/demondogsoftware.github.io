@@ -34,7 +34,7 @@
           </nuxt-link>
         </li>
         <li class="nav--item">
-          <nuxt-link to="" class="nav--link">
+          <nuxt-link to="/contact" class="nav--link">
             Contact
           </nuxt-link>
         </li>

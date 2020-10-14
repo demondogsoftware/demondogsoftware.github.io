@@ -52,20 +52,6 @@
         </div>
       </div>
     </article>
-    <article id="contact-form" class="portfolio--contact-container">
-      <div class="home--contact-text">
-        <h2>
-          CONTACT US
-        </h2>
-        <p>
-          Want a price quote or have questions regarding services?
-          <br>
-          Do you have an idea or project you want to bring to lfe?
-        </p>
-      </div>
-      <img src="" alt="home contact image placeholder">
-      <ContactForm />
-    </article>
   </section>
 </template>
 

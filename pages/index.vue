@@ -11,7 +11,7 @@
           <br>
           Web development tailored to YOUR business needs
         </p>
-        <a href="#contact-form" class="contact--btn"><span class="contact--icon" />Contact</a>
+        <ContactButton />
       </div>
     </article>
     <article class="home--services-container">
@@ -23,10 +23,12 @@
         <p class="my-1">
           Every business is different, so your website shouldn’t feel like every other business. We will create a custom website using the latest web development tools that will address all your business needs while providing a one-of-a-kind customer experiance for your customers.
         </p>
-        <nuxt-link to="/portfolio" class="portfolio--btn">
-          <span class="portfolio--icon" />
-          Portfolio
-        </nuxt-link>
+        <div class="portfolio--btn-container my-2">
+          <nuxt-link to="/portfolio" class="btn portfolio--btn">
+            <span class="portfolio--icon" />
+            Portfolio
+          </nuxt-link>
+        </div>
       </div>
       <div class="home--services-text my-2">
         <h2>
@@ -49,28 +51,9 @@
           <img src="" alt="service image placeholder">
           <p>SEO / Social</p>
         </div>
-        <div class="services--btn-container mb-1">
-          <nuxt-link to="/services" class="services--btn">
-            <span class="services--icon" />
-            Services
-          </nuxt-link>
-        </div>
+        <ServicesButton />
       </div>
       <img src="" alt="services picture 2 placeholder">
-    </article>
-    <article id="contact-form" class="home--contact-container">
-      <div class="home--contact-text my-2">
-        <h2>
-          CONTACT US
-        </h2>
-        <p class="my-1">
-          Want a price quote or have questions regarding services?
-          <br>
-          Do you have an idea or project you want to bring to lfe?
-        </p>
-      </div>
-      <img src="" alt="home contact image placeholder">
-      <ContactForm />
     </article>
   </section>
 </template>
