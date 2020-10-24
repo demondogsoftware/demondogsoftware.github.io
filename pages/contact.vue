@@ -10,7 +10,7 @@
         Do you have an idea or project you want to bring to lfe?
       </p>
     </div>
-    <img src="" alt="home contact image placeholder">
+    <img src="~/assets/img/contact_small.jpg" alt="keyboard alongside a planner and notepade with pencil">
     <ContactForm />
   </article>
 </template>

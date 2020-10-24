@@ -1,7 +1,7 @@
 <template>
   <section class="py-3">
     <article class="services--hero-container">
-      <img src="" alt="services hero image placeholder">
+      <img src="~/assets/img/messy_wires_large.jpg" alt="very messily wired server area">
       <div class="services--hero-text my-2">
         <h1>
           Allow us to rein in your website
@@ -21,7 +21,7 @@
       </div>
     </article>
     <article class="services--services-container">
-      <img src="" alt="services services image placeholder">
+      <img src="~/assets/img/clean_wires_large.jpg" alt="cleanly wired server rack">
       <div class="services--services-cards">
         <div class="services-card my-1">
           <img src="" alt="services card image placeholder">

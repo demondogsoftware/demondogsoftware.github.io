@@ -1,7 +1,7 @@
 <template>
   <section class="py-3">
     <article class="home--hero-container">
-      <img src="" alt="demon dog software image with company name" class="home--hero-img">
+      <img src="~/assets/img/hero_large.jpg" alt="vibrant desert sunset with 3 buttes" class="home--hero-img">
       <div class="home--hero-text my-2">
         <h1>
           Demon Dog Software
@@ -15,7 +15,7 @@
       </div>
     </article>
     <article class="home--services-container">
-      <img src="" alt="services picture 1 placeholder">
+      <img src="~/assets/img/coding_small.jpg" alt="computer screen displaying code">
       <div class="home--services-text my-2">
         <h2>
           Custom Coded Solutions
@@ -53,7 +53,7 @@
         </div>
         <ServicesButton />
       </div>
-      <img src="" alt="services picture 2 placeholder">
+      <img src="~/assets/img/roadmap_small.jpg" alt="road map sitting on a car dashboard cruisin down the highway">
     </article>
   </section>
 </template>
