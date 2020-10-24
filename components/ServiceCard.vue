@@ -1,15 +1,14 @@
 <template>
   <div class="service--card my-1">
-    <img :src="img" alt="service image placeholder">
-    <p>{{ service }}</p>
+    <img :src="require(`~/assets/images/img/${service.img}`)" :alt="service.alt">
+    <p>{{ service.description }}</p>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    img: String,
-    service: String
+    service: Object
   }
 }
 </script>
