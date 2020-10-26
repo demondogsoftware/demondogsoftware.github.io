@@ -55,6 +55,18 @@ img {
   padding: 3rem 0;
 }
 
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
+}
+
+.pb-3 {
+  padding-bottom: 3rem;
+}
+
 .my-1 {
   margin: 1rem 0;
 }

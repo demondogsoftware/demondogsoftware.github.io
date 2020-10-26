@@ -1,7 +1,7 @@
 <template>
   <section class="py-3">
-    <article class="home--hero-container">
-      <img src="~/assets/img/hero_large.jpg" alt="vibrant desert sunset with 3 buttes" class="home--hero-img">
+    <article class="home--hero-container pb-3">
+      <img src="~/assets/images/img/hero_large.jpg" alt="vibrant desert sunset with 3 buttes" class="home--hero-img">
       <div class="home--hero-text my-2">
         <h1>
           Demon Dog Software
@@ -15,20 +15,15 @@
       </div>
     </article>
     <article class="home--services-container">
-      <img src="~/assets/img/coding_small.jpg" alt="computer screen displaying code">
-      <div class="home--services-text my-2">
+      <img src="~/assets/images/img/coding_small.jpg" alt="computer screen displaying code">
+      <div class="home--services-text my-2 pb-3">
         <h2>
           Custom Coded Solutions
         </h2>
         <p class="my-1">
           Every business is different, so your website shouldn’t feel like every other business. We will create a custom website using the latest web development tools that will address all your business needs while providing a one-of-a-kind customer experiance for your customers.
         </p>
-        <div class="portfolio--btn-container my-2">
-          <nuxt-link to="/portfolio" class="btn portfolio--btn">
-            <span class="portfolio--icon" />
-            Portfolio
-          </nuxt-link>
-        </div>
+        <PortfolioButton />
       </div>
       <div class="home--services-text my-2">
         <h2>
@@ -53,7 +48,7 @@
         </div>
         <ServicesButton />
       </div>
-      <img src="~/assets/img/roadmap_small.jpg" alt="road map sitting on a car dashboard cruisin down the highway">
+      <img src="~/assets/images/img/roadmap_small.jpg" alt="road map sitting on a car dashboard cruisin down the highway">
     </article>
   </section>
 </template>
