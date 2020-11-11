@@ -15,46 +15,48 @@
       </div>
     </article>
     <article class="home--services-container">
-      <img src="~/assets/images/img/coding_small.jpg" alt="computer screen displaying code">
-      <div class="home--services-text my-2 pb-3">
-        <h2>
-          Custom Coded Solutions
-        </h2>
-        <p class="my-1">
-          Every business is different, so your website shouldn’t feel like every other business. We will create a custom website using the latest web development tools that will address all your business needs while providing a one-of-a-kind customer experiance for your customers.
-        </p>
-        <PortfolioButton />
-      </div>
-      <div class="home--services-text my-2">
-        <h2>
-          One Stop Tech Shop
-        </h2>
-        <p class="my-1">
-          When working with us you can focus on your business
-        </p>
-      </div>
-      <div class="home--services-cards">
-        <div class="service--card my-1">
-          <img src="" alt="service image placeholder">
-          <p>DNS / Hosting</p>
+      <div class="home--service-container row">
+        <img src="~/assets/images/img/coding_small.jpg" alt="computer screen displaying code">
+        <div class="home--services-text my-2 pb-3">
+          <h2>
+            Custom Coded Solutions
+          </h2>
+          <p class="my-1">
+            Every business is different, so your website shouldn’t feel like every other business. We will create a custom website using the latest web development tools that will address all your business needs while providing a one-of-a-kind customer experiance for your customers.
+          </p>
+          <PortfolioButton />
         </div>
-        <div class="service--card my-1">
-          <img src="" alt="service image placeholder">
-          <p>Database Services</p>
+      </div>
+      <div class="home--service-container row">
+        <img src="~/assets/images/img/roadmap_small.jpg" alt="road map sitting on a car dashboard cruisin down the highway">
+        <div class="home--services-text my-2">
+          <h2>
+            One Stop Tech Shop
+          </h2>
+          <p class="my-1">
+            When working with us you can focus on your business
+          </p>
         </div>
-        <div class="service--card my-1">
-          <img src="" alt="service image placeholder">
-          <p>SEO / Social</p>
+        <div class="home--services-cards">
+          <ServiceCard
+            v-for="service in services"
+            :key="service.id"
+            :service="service"
+          />
         </div>
         <ServicesButton />
       </div>
-      <img src="~/assets/images/img/roadmap_small.jpg" alt="road map sitting on a car dashboard cruisin down the highway">
     </article>
   </section>
 </template>
 
 <script>
 export default {
+  computed: {
+    services () {
+      return this.$store.getters['services/getServices']
+    }
+  },
   head () {
     return {
       title: 'Demon Dog Software',
