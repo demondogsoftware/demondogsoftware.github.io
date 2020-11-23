@@ -11,5 +11,8 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
+.services--btn-container {
+  text-align: center;
+}
 </style>

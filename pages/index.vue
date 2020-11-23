@@ -15,9 +15,9 @@
       </div>
     </article>
     <article class="home--services-container">
-      <div class="home--service-container row">
+      <div class="home--service-container">
         <img src="~/assets/images/img/coding_small.jpg" alt="computer screen displaying code">
-        <div class="home--services-text my-2 pb-3">
+        <div class="home--services-text pb-3">
           <h2>
             Custom Coded Solutions
           </h2>
@@ -27,7 +27,7 @@
           <PortfolioButton />
         </div>
       </div>
-      <div class="home--service-container row">
+      <div class="home--service-container">
         <img src="~/assets/images/img/roadmap_small.jpg" alt="road map sitting on a car dashboard cruisin down the highway">
         <div class="home--services-text my-2">
           <h2>

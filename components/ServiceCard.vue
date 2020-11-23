@@ -1,5 +1,5 @@
 <template>
-  <div class="service--card my-3">
+  <div class="service--card py-2">
     <img :src="require(`~/assets/images/icons/${service.img}`)" :alt="service.alt">
     <p class="pt-1">
       {{ service.description }}
@@ -20,6 +20,12 @@ export default {
 
 <style scoped>
 
+.service--card {
+  background-color: rgba(0, 0, 0, .65);
+  width: 90%;
+  margin: 3rem auto;
+}
+
 p {
   font-size: 1.25rem;
   text-align: center;
@@ -27,7 +33,7 @@ p {
 
 img {
   display: block;
-  width: 55%;
+  width: 50%;
   margin: 0 auto;
 }
 

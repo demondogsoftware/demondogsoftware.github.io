@@ -1,6 +1,6 @@
 <template>
   <section class="py-3">
-    <article class="about--hero-container">
+    <article class="about--hero-container pb-3">
       <img src="" alt="about hero img placeholder">
       <div class="about--hero-text my-2">
         <h1>

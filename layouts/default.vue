@@ -117,9 +117,8 @@ img {
 }
 
 @media (min-width: 800px) {
-  .row {
+  .flex {
     display: flex;
-    justify-content: space-between;
   }
 }
 </style>
